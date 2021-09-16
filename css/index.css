@@ -42,3 +42,46 @@ header .top-container{
     color: #ff6700;
     background-color: #fff;
 }
+
+/* 设置顶部导航下拉框 */
+.download-app{
+    position: relative;
+}
+
+.download-app:hover .text-app::after{
+    display: block;
+}
+
+.download-app .text-app::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    display: none;
+}
+
+.download-app .qrcode{
+    position: absolute;
+    left: -39px;
+    height: 148px;
+    width: 124px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    box-shadow: 0 0 2px #333 ;
+    display: none;
+
+}
+
+.download-app .qrcode img{
+    margin-top:16px ;
+    width: 90px;
+
+}
