@@ -10,4 +10,13 @@ $(function () {
         }
     );
 
+    //购物车下拉效果
+    $(".shopping-cart").hover(function () {
+        // over
+        $(".shopping-list").stop().slideDown(200);
+    }, function () {
+        // out
+        $(".shopping-list").stop().slideUp(200);
+    }
+);
 })
