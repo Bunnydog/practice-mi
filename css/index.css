@@ -1,0 +1,44 @@
+
+/* 设置header中的top-container部分 */
+header .top-container{
+    background-color: #333333;
+    color: #3f423c;
+    line-height: 40px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.top-container a{
+    display: block;
+    color: #b0b0b0;
+}
+
+.top-container a:hover{
+    color: #fff;
+}
+
+.topNav .split-line{
+    margin: 0 8px;
+}
+
+.topNav .left-nav li{
+    float: left;
+}
+
+.topNav .right-nav li{
+    float: left;
+}
+
+
+.topNav .shopping-cart{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: #424242;
+    margin-left: 25px;
+}
+
+.topNav .shopping-cart:hover a{
+    color: #ff6700;
+    background-color: #fff;
+}
